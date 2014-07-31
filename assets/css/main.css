@@ -1,0 +1,266 @@
+/*
+ * Author: Better Collective
+ * URL: http://www.bettercollective.com
+ *
+ * Based on a theme by Carlos Alvarez.
+ */
+
+body {
+  background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	color: #798d8f;
+	/*font-weight: 400;*/
+}
+
+h4 {
+	color: #798d8f;
+	/*font-weight: 400;*/
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #09f;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+}
+
+/* HeaderWrap */
+#headerwrap {
+	background-color: #09f;
+	margin-top: -20px;
+	padding-top:200px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#headerwrap h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#headerwrap img {
+  margin-top: -35px;
+  margin-bottom: 35px;
+}
+
+.app-button {
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 14px 26px;
+	font-size: 14px;
+	line-height: 100%;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-family: 'Lato', sans-serif;
+  -o-transition: all .5s ease 0;
+  -ms-transition: all .5s ease 0;
+  -moz-transition: all .5s ease 0;
+  -webkit-transition: all .5s ease 0;
+  transition: all .5s ease 0;
+}
+
+.app-button:hover, .app-button:active {
+	outline: 0 none;
+	text-decoration: none;
+}
+
+.app-button-1 {
+	background-color: white;
+  color: #006bb3;
+}
+.app-button-1:hover {
+	color: white;
+  background-color: #006bb3;
+}
+
+.app-button-2 {
+  border-color: white;
+  background-color: #09f;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 21px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.app-button-2:hover {
+  color: #006bb3;
+  background-color: white;
+}
+
+#app-info .row {
+  padding-top: 100px;
+}
+
+#app-info .img-responsive {
+  margin: 0 auto;
+}
+
+#app-info h2 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+#reach-us, #footer {
+  background-color: #ececec;
+  width: 100%;
+}
+
+#reach-us {
+  margin-top: 80px;
+}
+
+#reach-us a {
+  color: #555;
+  text-decoration: none;
+}
+
+#reach-us a:hover {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  color: #333;
+}
+
+#reach-us p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#reach-us i {
+  margin: 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  #headerwrap {
+    padding-top: 130px;
+  }
+
+  #headerwrap img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #app-info {
+    text-align: center;
+  }
+
+  #app-info h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #app-info-2 h3 {
+    margin-bottom: 30px;
+  }
+
+  #reach-us .col-lg-4 {
+    margin-bottom: 20px;
+  }
+
+}
