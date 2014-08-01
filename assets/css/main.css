@@ -235,6 +235,10 @@ p {
   margin: 4px;
 }
 
+#reach-us h3 {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 1200px) {
 
   #headerwrap {
